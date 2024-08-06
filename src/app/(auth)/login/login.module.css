@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.wrapper {
+  width: 500px;
+  background-color: var(--bgSoft);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  border-radius: 5px;
+  color: blaCK;
+}
+
+.github {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.google {
+  margin-bottom: 9px;
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
